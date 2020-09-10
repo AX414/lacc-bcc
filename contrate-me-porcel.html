@@ -30,7 +30,7 @@
         <a class="cta" href="index.html"><button>Tela_Inicial</button></a>
     </header>
 
-    <div id="bloco1" class="box" >
+    <div id="bloco1" class="box">
         <center>
             <div id="avatar-p2">
                 <div>
@@ -87,21 +87,20 @@
 
     <div id="bloco2" class="box2">
         <div id="cartao3">
-            <center>
-                <form action="">
-                    <div class="logo" id="bc">
-                        <h1 id="bc" style="margin-top: 10px;">
-                            Formulário
-                        </h1>
-                    </div>
-                    <br>
+            <form action="">
+                <div id="bc">
+                    <h1 id="cabecalho">
+                        Formulário
+                    </h1>
+                </div>
+                <br>
+                <div id="inputs">
                     <label id="interessado" for="interessado">Interessado:</label><br>
                     <input type="text" id="interessado-in" class="in" name="interessado"><br><br>
                     <label for="empresa">Empresa:</label><br>
                     <input type="text" id="empresa-in" class="in" name="empresa"><br><br>
                     <label for="salario">Salário R$:</label><br>
-                    <input type="number" id="salario-in" class="in" name="salario" value="5000" max="5100"
-                        min="4000"><br><br>
+                    <input type="number" id="salario-in" class="in" name="salario" value="5000" max="5100" min="4000"><br><br>
                     <label id="tipos" for="tipos">Tipos de Trabalho:</label>
                     <select id="tipos" name="tipos-in">
                         <option value="home">Home-Office</option>
@@ -117,17 +116,21 @@
                     <label for="PJ">PJ</label><br><br>
                     <label id="inicio-in" for="inicio">Data de Inicio:</label>
                     <input type="date" id="inicio" class="in" name="inicio"><br><br>
-                    <input type="checkbox" id="ur-in" name="ur-in" value="ur">
-                        <label style="padding-right: 30px;" id="ur" for="ur">Serviços com Urgencia!</label><br>
-                    <br>
-                    <button style="background-color:#ff79c6">Enviar</button><br><br>
-                </form>
+                </div>
+                <div id="check">
+                    <input type="checkbox" id="urgencia-in" name="urgencia-in" value="urgencia">
+                    <label id="urgencia" for="urgencia">Serviços com Urgencia!</label>
+                </div>
+                <br>
+                <br>
+                <button id="botao_form">Enviar</button><br><br>
+            </form>
         </div>
     </div>
-<br>
-<footer style="margin-top: 25px;">
+    <br>
+    <footer>
 
-</footer>
+    </footer>
 
 </body>
 
